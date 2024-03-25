@@ -1,0 +1,15 @@
+{
+  
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1711378888",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:WRITE YOUR BUCKET ARN /*",
+      "Principal": "*"
+    }
+  ]
+}
